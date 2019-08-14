@@ -30,4 +30,4 @@ Take a look at [the Button component](src/components/Button). You can duplicate 
 
 ## Background
 
-To get Tailwind CSS and Storybook working with Create React App, you need to setup Tailwind CSS as a postcss plugin in (webpack.config.js)[.storybook/webpack.config.js] and [craco.config.js](craco.config.js).
+To get Tailwind CSS and Storybook working with Create React App, you need to setup Tailwind CSS as a postcss plugin in [[webpack.config.js](.storybook/webpack.config.js) and [craco.config.js](craco.config.js).
