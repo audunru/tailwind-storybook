@@ -1,7 +1,7 @@
 {
   "name": "tailwind-storybook",
   "version": "0.1.0",
-  "private": true,
+  "description": "Starter for Tailwind CSS and Storybook.",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -15,6 +15,17 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/audunru/tailwind-storybook"
+  },
+  "keywords": [
+    "tailwind",
+    "storybook",
+    "create-react-app"
+  ],
+  "author": "Audun Rundberg",
+  "license": "MIT",
   "eslintConfig": {
     "extends": "react-app"
   },
