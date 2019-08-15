@@ -1,6 +1,6 @@
 # Tailwind CSS + Storybook
 
-This is a starter for [Tailwind CSS](https://tailwindcss.com/) and [Storybook](https://storybook.js.org/).
+This is a starter for [Tailwind CSS](https://tailwindcss.com/) and [Storybook](https://storybook.js.org/) with [React](https://reactjs.org/) components.
 
 [Example of Storybook published to GitHub pages](https://audunru.github.io/tailwind-storybook/).
 
