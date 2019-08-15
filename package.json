@@ -1,6 +1,6 @@
 {
   "name": "tailwind-storybook",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Starter for Tailwind CSS and Storybook.",
   "dependencies": {
     "react": "^16.9.0",
