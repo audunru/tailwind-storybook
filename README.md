@@ -26,7 +26,11 @@ yarn start
 
 ## Creating components
 
-Take a look at [the Button component](src/components/Button). You can duplicate this directory and its contents to get started making your own components.
+Take a look at the [Button](src/components/Button) or [Card](src/components/Card) component. You can duplicate this directory and its contents to get started making your own components.
+
+## Customizing Tailwind CSS
+
+Take a look at [tailwind.config.js](tailwind.config.js).
 
 ## Background
 
