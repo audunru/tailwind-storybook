@@ -63,4 +63,4 @@ yarn deploy-storybook
 
 ## Background
 
-To get Tailwind CSS working with Storybook and Create React App, you can setup Tailwind CSS as a postcss plugin in Storybook's [webpack.config.js](.storybook/webpack.config.js) and Craco's [craco.config.js](craco.config.js).
+To get Tailwind CSS working with Storybook and Create React App, you can setup Tailwind CSS as a postcss plugin in Storybook's [webpack.config.js](.storybook/webpack.config.js) and Craco's [craco.config.js](craco.config.js). That's what this starter does, in case you were wondering.
