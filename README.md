@@ -32,13 +32,13 @@ Take a look at the [Button](src/components/Button) or [Card](src/components/Card
 
 Each component directory contains the following files:
 
-| File              | Contains                                                                                                          |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Button.css        | Imports the main index.css file, which contains classes from Tailwind CSS.                                        |
-| Button.js         | The Button React component, which will be used both by your React application and documented by Storybook.        |
-| Button.stories.js | Contains the Storybook component documentation (called "stories"), and is used to generate the Storybook.         |
-| Button.test.js    | Tests for the React component that you can run with `yarn test`.                                                  |
-| index.js          | Export for the Button component so you can import it in your app with `import Button from "./components/Button"`. |
+| File              | Contains                                                                                                                                                                                   |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Button.css        | Imports the main index.css file, which contains classes from Tailwind CSS. You don't have to add anything here if you're just going to use Tailwind's classes directly in your components. |
+| Button.js         | The Button component, which will be used by your React application and documented by Storybook.                                                                                            |
+| Button.stories.js | Contains the Storybook component documentation (called "stories"), and is used when the Storybook is generated.                                                                            |
+| Button.test.js    | Tests for the Button component that you can run with `yarn test`.                                                                                                                          |
+| index.js          | Export for the Button component so you can import it in your app with `import Button from "./components/Button"`.                                                                          |
 
 ## Customizing Tailwind CSS
 
