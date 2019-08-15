@@ -30,6 +30,14 @@ yarn start
 
 Take a look at the [Button](src/components/Button) or [Card](src/components/Card) component. You can duplicate this directory and its contents to get started making your own components.
 
+| File              | Contains                                                                                                          |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Button.css        | Imports the main index.css file, which contains classes from Tailwind CSS.                                        |
+| Button.js         | The Button React component, which will be used both by your React application and documented by Storybook.        |
+| Button.stories.js | Contains the Storybook component documentation (called "stories"), and is used to generate the Storybook.         |
+| Button.test.js    | Tests for the React component that you can run with `yarn test`.                                                  |
+| index.js          | Export for the Button component so you can import it in your app with `import Button from "./components/Button"`. |
+
 ## Customizing Tailwind CSS
 
 Take a look at [tailwind.config.js](tailwind.config.js).
