@@ -2,6 +2,8 @@
 
 This is a starter for [Tailwind CSS](https://tailwindcss.com/) and [Storybook](https://storybook.js.org/).
 
+[Example of Storybook published to GitHub pages](https://audunru.github.io/tailwind-storybook/).
+
 ## Installation
 
 ```bash
@@ -31,6 +33,23 @@ Take a look at the [Button](src/components/Button) or [Card](src/components/Card
 ## Customizing Tailwind CSS
 
 Take a look at [tailwind.config.js](tailwind.config.js).
+
+## Deploy to Github Pages
+
+Change the repository URL in package.json to your own repository:
+
+```json
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnshickson/epic-storybook"
+  },
+```
+
+Run:
+
+```bash
+yarn deploy-storybook
+```
 
 ## Background
 
