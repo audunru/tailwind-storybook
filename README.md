@@ -30,6 +30,8 @@ yarn start
 
 Take a look at the [Button](src/components/Button) or [Card](src/components/Card) component. You can duplicate this directory and its contents to get started making your own components.
 
+Each component directory contains the following files:
+
 | File              | Contains                                                                                                          |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Button.css        | Imports the main index.css file, which contains classes from Tailwind CSS.                                        |
