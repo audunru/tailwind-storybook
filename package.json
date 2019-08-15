@@ -50,6 +50,7 @@
     "@storybook/addons": "^5.1.11",
     "@storybook/react": "^5.1.11",
     "@storybook/storybook-deployer": "^2.8.1",
+    "classnames": "^2.2.6",
     "postcss-import": "^12.0.1",
     "storybook-react-to-static-markup": "^0.1.1",
     "tailwindcss": "^1.1.2"
