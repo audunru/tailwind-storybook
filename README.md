@@ -34,4 +34,4 @@ Take a look at [tailwind.config.js](tailwind.config.js).
 
 ## Background
 
-To get Tailwind CSS and Storybook working with Create React App, you need to setup Tailwind CSS as a postcss plugin in [webpack.config.js](.storybook/webpack.config.js) and [craco.config.js](craco.config.js).
+To get Tailwind CSS working with Storybook and Create React App, you can setup Tailwind CSS as a postcss plugin in Storybook's [webpack.config.js](.storybook/webpack.config.js) and Craco's [craco.config.js](craco.config.js).
