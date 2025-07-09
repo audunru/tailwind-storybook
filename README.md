@@ -38,7 +38,3 @@ Each component directory contains the following files:
 | Button.test.tsx    | Tests for the Button component that you can run with `npm run test`.                                              |
 | Button.tsx         | The Button component, which will be used by your React application and documented by Storybook.                   |
 | index.ts           | Export for the Button component so you can import it in your app with `import Button from "./components/Button"`. |
-
-## Customizing Tailwind CSS
-
-Take a look at [tailwind.config.ts](tailwind.config.ts).
