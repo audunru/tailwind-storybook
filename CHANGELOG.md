@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/audunru/tailwind-storybook/compare/v1.0.0...v2.0.0) (2025-09-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* storybook 9 ([#45](https://github.com/audunru/tailwind-storybook/issues/45))
+
+### Build System
+
+* storybook 9 ([#45](https://github.com/audunru/tailwind-storybook/issues/45)) ([fa055fc](https://github.com/audunru/tailwind-storybook/commit/fa055fc7c6eed3dc6a3db5ded13d5b608a53c96a))
+
 ## [1.0.0](https://github.com/audunru/tailwind-storybook/compare/v0.3.0...v1.0.0) (2024-04-07)
 
 
