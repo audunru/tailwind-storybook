@@ -1,18 +1,30 @@
 name: Release
-
 on:
   push:
-    branches: [main]
+    branches:
+      - main # or main
+  workflow_dispatch: # Add this line to enable manual triggering
 
-permissions:
-  contents: write
-  pull-requests: write
+concurrency:
+  group: release
+  cancel-in-progress: false
 
 jobs:
-  release-please:
+  release:
+    name: Release
     runs-on: ubuntu-latest
-
     steps:
-      - uses: google-github-actions/release-please-action@v4
+      - name: Checkout
+        uses: actions/checkout@v5
         with:
-          release-type: node
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          fetch-depth: 0
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+        run: |
+          npx --yes \
+            -p semantic-release \
+            -p @semantic-release/changelog \
+            -p @semantic-release/git \
+            semantic-release
