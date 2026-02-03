@@ -29,8 +29,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
@@ -39,7 +39,7 @@
     "@storybook/react-vite": "^9.1.17",
     "@tailwindcss/vite": "^4.1.18",
     "@testing-library/react": "^16.3.2",
-    "@types/react": "^19.2.7",
+    "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
     "autoprefixer": "^10.4.24",
