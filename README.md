@@ -2,7 +2,7 @@
 
 This is a starter for [Tailwind CSS](https://tailwindcss.com/) and [Storybook](https://storybook.js.org/) with [React](https://reactjs.org/) components.
 
-It's written in [Typescript](https://www.typescriptlang.org/) and uses [Vite](https://vitejs.dev/). Tests are written with [Vitest](https://vitest.dev/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro).
+It's written in [TypeScript](https://www.typescriptlang.org/) and uses [Vite](https://vitejs.dev/). Tests are written with [Vitest](https://vitest.dev/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro). Linting and formatting are handled by [Biome](https://biomejs.dev/). The [React Compiler](https://react.dev/learn/react-compiler) is enabled — components are automatically memoized.
 
 [Example of Storybook published to GitHub pages](https://audunru.github.io/tailwind-storybook/).
 
