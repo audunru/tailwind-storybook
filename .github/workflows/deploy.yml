@@ -33,12 +33,11 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 26
           cache: "npm"
-      - name: Install dependencies
-        run: npm ci
-      - name: Build
-        run: npm run build-storybook
+      - run: npm ci
+      - run: npm run biome:check
+      - run: npm run build-storybook
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
