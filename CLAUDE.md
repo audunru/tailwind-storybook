@@ -17,11 +17,13 @@ npm run biome:write      # Auto-fix lint/format issues
 
 ## Architecture
 
-React component library and design system starter. Components are documented via Storybook and styled with Tailwind CSS v4. Deployed to GitHub Pages as a static Storybook site.
+React component library and design system starter. Components are documented via Storybook v10 and styled with Tailwind CSS v4. Deployed to GitHub Pages as a static Storybook site.
 
 **Tailwind v4** uses zero-config: no `tailwind.config.js`; the `@tailwindcss/vite` plugin handles everything. Global CSS is a single import: `src/index.css` → `@import "tailwindcss";`.
 
 **Biome** replaces ESLint + Prettier (2-space indent, 120 char line width). Pre-commit hooks via Husky + lint-staged auto-run `biome check --write` on staged files.
+
+**React Compiler** is enabled via `@rolldown/plugin-babel` + `babel-plugin-react-compiler` in `vite.config.ts`. Components are automatically memoized — no manual `useMemo`/`useCallback` needed.
 
 ## Component Pattern
 
