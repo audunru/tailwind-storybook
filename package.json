@@ -28,7 +28,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 4000",
     "build-storybook": "storybook build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "react": "^19.2.6",
